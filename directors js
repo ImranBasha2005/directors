@@ -1,0 +1,24 @@
+
+key pressing document.addEventListener("keypress",function(event){soundKeys(event.key)})
+
+function soundKeys(key){
+
+document.getElementById('vetrimaaran').addEventListener('click',function(){playsound('vetr.mp3');});
+
+document.getElementById('prashanthneel').addEventListener('click',function(){playsound('prashanthneel.mp3');});
+
+document.getElementById('rs.sendhilduraikumar').addEventListener('click',function(){playsound('sendhil.mp3.mp3');});
+
+document.getElementById('karthiksubbaraj').addEventListener('click',function(){playsound('ks.mp3.mp3');});
+
+document.getElementById('paranjith').addEventListener('click',function(){playsound('pa.ranjith.mp3.mp3');});
+
+document.getElementById('selvaraagavan').addEventListener('click',function(){playsound('sel.mp3.mp3');});
+
+document.getElementById('lokesh').addEventListener('click',function(){playsound('lok.mp3.mp3');});
+
+function playsound(sound) {
+    var audio = new Audio(sound);
+    audio.play();
+}
+}
